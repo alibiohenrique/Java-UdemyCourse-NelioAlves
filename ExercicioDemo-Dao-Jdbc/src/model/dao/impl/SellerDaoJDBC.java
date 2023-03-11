@@ -92,7 +92,7 @@ public class SellerDaoJDBC implements SellerDao {
 			
 			if (idCheck == 0) {
 				throw new DbException("Error! This id doesnt exist");
-			}
+			}	
 
 		} catch (SQLException e) {
 			throw new DbException(e.getMessage());
